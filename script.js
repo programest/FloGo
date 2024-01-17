@@ -30,13 +30,12 @@
 
 
 
-
-function redirectToWhatsApp() {
+ function redirectToWhatsApp() {
       // Замените "Ваш текст для сообщения" на текст, который вы хотите отправить в WhatsApp
-      var message = encodeURIComponent("Ваш текст для сообщения");
+      var message = encodeURIComponent("Интересует франшиза");
   
       // Замените "+123456789" на номер WhatsApp, на который вы хотите отправить сообщение
-      var phoneNumber = "+77714110705";
+      var phoneNumber = "+79155936677";
   
       // Проверяем, является ли устройство мобильным
       var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
