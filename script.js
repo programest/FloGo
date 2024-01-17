@@ -4,35 +4,36 @@
 
 
 
+const burgerBtn = document.getElementById('burgerBtn');
+const burgerMenu = document.getElementById('burgerMenu');
+const closeBtn = document.getElementById('closeBtn');
+const menuItems = document.querySelectorAll('.mainLI'); // Select all menu items
 
-    const burgerBtn = document.getElementById('burgerBtn');
-    const burgerMenu = document.getElementById('burgerMenu');
-    const closeBtn = document.getElementById('closeBtn');
-  
-    burgerBtn.addEventListener('click', function () {
-      burgerBtn.classList.toggle('cross');
-      if (burgerMenu.style.display === 'flex'){
-        burgerMenu.style.display = 'none';
-        document.body.style.overflow = '';
-      }else{
-        burgerMenu.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-      }
-    });
-  document.querySelectorAll('.mainLI a').forEach(function (menuItem) {
-    menuItem.addEventListener('click', function () {
-        // Close the burger menu when a menu item is clicked
-        burgerMenu.style.display = 'none';
-        document.body.style.overflow = '';
-        burgerBtn.classList.remove('cross');
-    });
+burgerBtn.addEventListener('click', function () {
+  burgerBtn.classList.toggle('cross');
+  if (burgerMenu.style.display === 'flex') {
+    burgerMenu.style.display = 'none';
+    document.body.style.overflow = '';
+  } else {
+    burgerMenu.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
 });
-  
- 
- document.addEventListener('DOMContentLoaded', function () {
-      burgerMenu.style.display = 'none';
-    });
 
+// Add event listeners to each menu item
+menuItems.forEach(item => {
+  item.addEventListener('click', function () {
+    console.log('123213213')
+    burgerMenu.style.display = 'none';
+    burgerBtn.classList.remove('cross');
+    document.body.style.overflow = '';
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+  burgerMenu.style.display = 'none';
+});
+ 
 
 
 
