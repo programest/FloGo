@@ -114,9 +114,7 @@ body{
     .headerBlockIcon {
       display: none;
     }
-    .burger-menu {
-        display: flex;
-    }
+   
     .mainUL{
         display: none !important;
     }
