@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-  document.addEventListener('DOMContentLoaded', function () {
+
     const burgerBtn = document.getElementById('burgerBtn');
     const burgerMenu = document.getElementById('burgerMenu');
     const closeBtn = document.getElementById('closeBtn');
@@ -52,8 +52,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   
   
-  });
-
+ 
+ document.addEventListener('DOMContentLoaded', function () {
+      burgerMenu.style.display = 'none';
+    });
 
 
 
