@@ -1,34 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Найти все кнопки для открытия модального окна с data-target
-    const openModalBtns = document.querySelectorAll('[data-target]');
-    const closeModalBtn = document.querySelector('.modal .close');
-    const modal = document.querySelector('.modal');
-    const subscribeCheckbox = document.getElementById('subscribe');
-  
-    // Обработчик для открытия модального окна
-    openModalBtns.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        const targetId = btn.getAttribute('data-target');
-        const targetModal = document.getElementById(targetId);
-        if (targetModal) {
-          targetModal.style.display = 'block';
-        }
-      });
-    });
-  
-    // Обработчик для закрытия модального окна
-    closeModalBtn.addEventListener('click', function () {
-      modal.style.display = 'none';
-    });
-  
-    // Обработчик для закрытия модального окна по клику вне окна
-    window.addEventListener('click', function (event) {
-      if (event.target === modal) {
-        modal.style.display = 'none';
-      }
-    });
-  
-  });
 
 
 
