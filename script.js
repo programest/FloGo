@@ -19,7 +19,14 @@
         document.body.style.overflow = 'hidden';
       }
     });
-  
+  document.querySelectorAll('.mainLI a').forEach(function (menuItem) {
+    menuItem.addEventListener('click', function () {
+        // Close the burger menu when a menu item is clicked
+        burgerMenu.style.display = 'none';
+        document.body.style.overflow = '';
+        burgerBtn.classList.remove('cross');
+    });
+});
   
  
  document.addEventListener('DOMContentLoaded', function () {
