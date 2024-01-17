@@ -37,7 +37,7 @@
                 <a href="#">Возможности</a>
                 <a href="#">Расходы на открытие</a>
                 <button class="headerBtn" style="margin-left: 0; margin-bottom: 40px; margin-top: 20px;">Контакты</button>
-                <button class="defultBtn -burgerBtn" id="openModalBtn" >Получить консультацию</button>
+                <button class="defultBtn -burgerBtn" id="openModalBtn" onclick="redirectToWhatsApp()" >Получить консультацию</button>
                 <div class="burgerMenuIcon">
                     <img src="./img/s1.svg" class="headerIcon" alt="">
                     <img src="./img/s2.svg" class="headerIcon" alt="">
@@ -66,7 +66,7 @@
                         <p class="mainSubTitle">Франшиза <br> цветочного бизнеса</p>
                     </div>
                     <h2 class="mainSub">Расцветай с нами — вместе к инновациям!</h2>
-                    <div class="mainBtnBlock" id="openModalBtn" data-target="myModal" >
+                    <div class="mainBtnBlock" id="openModalBtn" onclick="redirectToWhatsApp()" data-target="myModal" >
                         <p class="mainBtn" >Подробнее</p>
                         <img src="./img/main/Arrow.svg" alt="">
                        
@@ -103,7 +103,7 @@
                 <div class="mainBlock__img">
                     <img src="./img/main/img.png" alt="" >
                 </div>
-                <div class="mainBtnBlock -hidden" id="openModalBtn" data-target="myModal" >
+                <div class="mainBtnBlock -hidden" id="openModalBtn" onclick="redirectToWhatsApp()" data-target="myModal" >
                     <p class="mainBtn" >Подробнее</p>
                     
                 </div>
@@ -208,7 +208,7 @@
                         </li>
                     </ul>
                 </div>
-                <button id="openModalBtn" class="defultBtn"  data-target="myModal">Получить консультацию</button>
+                <button id="openModalBtn" class="defultBtn"  onclick="redirectToWhatsApp()" data-target="myModal">Получить консультацию</button>
                 <p>Смотреть расходы на открытие</p>
                 <div class="franchise__hr"></div>
             </div>
@@ -255,7 +255,7 @@
                         </li>
                     </ul>
                 </div>
-                <button id="openModalBtn" class="defultBtn"  data-target="myModal">Получить консультацию</button>
+                <button id="openModalBtn" class="defultBtn" onclick="redirectToWhatsApp()"  data-target="myModal">Получить консультацию</button>
                 <p>Смотреть расходы на открытие</p>
                 <div class="franchise__hr"></div>
             </div>
@@ -380,7 +380,7 @@
                     </li>
                 </ul>
                 
-                <button class="defultBtn" id="openModalBtn"  data-target="myModal">Получить консультацию</button>
+                <button class="defultBtn" id="openModalBtn" onclick="redirectToWhatsApp()"  data-target="myModal">Получить консультацию</button>
             
             </div>
             <div class="franchiseCard">
@@ -440,7 +440,7 @@
                     </li>
                 </ul>
                 
-                <button class="defultBtn" id="openModalBtn"  data-target="myModal">Заполнить заявку и получить консультацию</button>
+                <button class="defultBtn" id="openModalBtn" onclick="redirectToWhatsApp()"  data-target="myModal">Заполнить заявку и получить консультацию</button>
             
             </div>
         </div>
@@ -450,7 +450,7 @@
             <img src="./img/contacts/logo.svg" class="contactsBlock__logo" alt="">
 
             <h3 class="contactsBlock__title"><span class="bold">FloGo</span> франшиза цветочного бизнеса №1 <br/> в Российской Федерации</h3>
-            <button class="contactsBlock__btn" id="openModalBtn"  data-target="myModal"> Получить консультацию</button>
+            <button class="contactsBlock__btn" id="openModalBtn"  data-target="myModal"onclick="redirectToWhatsApp()" > Получить консультацию</button>
             <div class="contactsBlock__text">
                 <p class="contactsBlock__textItem">ИП Лобыничев Тарас Анатолиевич</p>
                 <p class="contactsBlock__textItem">ИНН 570206388868</p>
@@ -459,32 +459,7 @@
             <img src="./img/contacts/logos_telegram.svg" class="contactsBlock__icon" alt="">
         </div>
     </section>
-    <section id="myModal" class="modal">
-       
    
-    <div class="modal-content">
-        <img src="/img/modal/Logo.svg" class="modallogo" alt="">
-        <div class="modalBG">
-            <span class="close" id="closeModalBtn">&times;</span>  
-        </div>
-        <div class="modalContent">
-            
-            <h2 class="modalTitle">Заполните заявку</h2>
-            <p class="modalSubTitle">Наш специалист свяжестя с вами <br/> в ближайшее время</p>
-            <form class="modalForm">
-                <input class="modalInput" type="text" id="name" name="name" placeholder="Имя">
-                <input class="modalInput" type="tel" id="phone" name="phone" placeholder="Телефон">
-                <input class="modalInput" type="email" id="email" name="email" placeholder="Email">
-                <div class="modalCheckbox"><input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe" style="font-size: 14px;">Соглашаюсь с политикой обработки персональных данных</label></div>
-                
-                    <button class="defultBtn" onclick="redirectToWhatsApp()">Получить консультацию</button>
-
-            </form>
-    </div>
-    </div>
-
-    </section>
    
        
     
