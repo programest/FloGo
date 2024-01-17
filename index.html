@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FloGo</title>
+    <link rel="stylesheet" href="./[defaultCss].css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./[adaptiveCss].css">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="headerBlock">
+            <div class="headerBlockLogo"> <img src="./img/logo.svg" class="logo" alt="">
+                <p class="headerBlock__text"><span class="bold">FloGo</span> франшиза цветочного бизнеса №1 <br/> в Российской Федерации</p></div>
+           
+            <div class="headerBlockIcon">
+                <img src="./img/s1.svg" class="headerIcon" alt="">
+                <img src="./img/s2.svg" class="headerIcon" alt="">
+                <img src="./img/s3.svg" class="headerIcon" alt="">
+                <a href="#contacts" class="headerBtn">Контакты </a>
+            </div>
+            <div class="burger-menu" id="burgerBtn">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            <div class="burgerMenu" id="burgerMenu">
+                
+                <a href="#">Преимущества </a>
+                <a href="#">Варианты франшизы</a>
+                <a href="#">Развитие и поддержка</a>
+                <a href="#">Возможности</a>
+                <a href="#">Расходы на открытие</a>
+                <button class="headerBtn" style="margin-left: 0; margin-bottom: 40px; margin-top: 20px;">Контакты</button>
+                <button class="defultBtn -burgerBtn" id="openModalBtn" >Получить консультацию</button>
+                <div class="burgerMenuIcon">
+                    <img src="./img/s1.svg" class="headerIcon" alt="">
+                    <img src="./img/s2.svg" class="headerIcon" alt="">
+                    <img src="./img/s3.svg" class="headerIcon" alt="">
+                    
+                </div>
+              </div>
+        </div>
+    </header>
+    <div class="wrapper">
+       
+        <main id="main">
+            <ul class="mainUL">
+                <li class="mainLI"><a href="#main">Преимущества </a> </li>
+                <li class="mainLI"><a href="#franchise">Варианты франшизы</a> </li>
+                <li class="mainLI"><a href="#development">Развитие и поддержка</a> </li>
+                <li class="mainLI"><a href="#opportunities">Возможности</a> </li>
+                <li class="mainLI"><a href="#open">Расходы на открытие</a> </li>
+            </ul>
+            <div class="mainBlock">
+               
+                <div class="mainBlock__text">
+                   
+                    <div class="mainTitleText">
+                        <h1 class="mainTitle">Flo<span class="-pink">Go</span></h1>
+                        <p class="mainSubTitle">Франшиза <br> цветочного бизнеса</p>
+                    </div>
+                    <h2 class="mainSub">Расцветай с нами — вместе к инновациям!</h2>
+                    <div class="mainBtnBlock" id="openModalBtn" data-target="myModal" >
+                        <p class="mainBtn" >Подробнее</p>
+                        <img src="./img/main/Arrow.svg" alt="">
+                       
+                    </div>
+                    <div class="mainBlockCards">
+                        <div class="mainBlockCards__info">
+                            <div class="mainBlockCard">
+                                <img src="./img/main/1.svg" alt="" class="mainBlockCard__img">
+                                <p class="mainBlockCard__text">10 лет опыта ведения успешного цветочного бизнеса</p>
+                            </div>
+                            <div class="mainBlockCard">
+                                <img src="./img/main/2.svg" alt="" class="mainBlockCard__img">
+                                <p class="mainBlockCard__text">Своя школа флористики</p>
+                            </div>
+                            <div class="mainBlockCard order-3">
+                                <img src="./img/main/3.svg" alt="" class="mainBlockCard__img ">
+                                <p class="mainBlockCard__text">Прямые поставки цветов и упаковки со всего мира по всей России</p>
+                            </div>
+                            <div class="mainBlockCard">
+                                <img src="./img/main/4.svg" alt="" class="mainBlockCard__img">
+                                <p class="mainBlockCard__text">Свой маркетплейс доставки цветов</p>
+                            </div>
+                            <div class="mainBlockCard">
+                                <img src="./img/main/5.svg" alt="" class="mainBlockCard__img">
+                                <p class="mainBlockCard__text">Собственная оптовая база цветов в Москве</p>
+                            </div>
+                            <div class="mainBlockCard">
+                                <img src="./img/main/6.svg" alt="" class="mainBlockCard__img">
+                                <p class="mainBlockCard__text">Свое маркетинговое агентство</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainBlock__img">
+                    <img src="./img/main/img.png" alt="" >
+                </div>
+                <div class="mainBtnBlock -hidden" id="openModalBtn" data-target="myModal" >
+                    <p class="mainBtn" >Подробнее</p>
+                    
+                </div>
+            </div>
+        </main>
+
+    <section class="statistics" id="statistics">
+       
+            <h2 class="statisticsTitle">Рынок цветов в России</h2>
+            <div class="statisticsBlocks">
+            
+            <div class="statisticsBlock">
+                <div class="statisticsBlock-text">
+                    <h3 class="statisticsBlock__title">Рынок России один 
+                        из крупнейших в мире.</h3>
+                    <p class="statisticsBlock__text">Объём рынка 2.6 млрд $ в год</p>
+                </div>
+                <img src="./img/statistics/1.png" alt="">
+            </div>
+            <div class="statisticsBlock">
+                <div class="statisticsBlock-text">
+                    <h3 class="statisticsBlock__title">Онлайн продажи демонстрируют стабильный рост 20% ежегодно</h3>
+                    
+                </div>
+                <img src="./img/statistics/2.png" alt="">
+            </div>
+            <div class="statisticsBlock">
+                <div class="statisticsBlock-text">
+                    <h3 class="statisticsBlock__title">Цветы являются популярным подарком и используются в различных сферах, включая свадебные и корпоративные мероприятия</h3>
+                    
+                </div>
+                <img src="./img/statistics/3.png" alt="">
+            </div>
+            <div class="statisticsBlock">
+                <div class="statisticsBlock-text">
+                    <h3 class="statisticsBlock__title">Высоко маржинальный.</h3>
+                    <p class="statisticsBlock__text">Наценка на цветы 200-300%, на упаковку 500%</p>
+                </div>
+                <img src="./img/statistics/4.png" alt="">
+            </div>
+            <div class="statisticsBlock">
+                <div class="statisticsBlock-text">
+                    <h3 class="statisticsBlock__title">Сезонных колебаний нет.</h3>
+                   
+                </div>
+                <img src="./img/statistics/5.png" alt="">
+            </div>
+            <div class="statisticsBlock">
+                <div class="statisticsBlock-text">
+                    <h3 class="statisticsBlock__title">Франшиза цветов может быть привлекательной инвестицией, учитывая высокий спрос на цветы в России и возможности для развития бизнеса.</h3>
+               
+                </div>
+                <img src="./img/statistics/6.png" alt="">
+            </div>
+            </div>
+   
+    </section>
+
+    <section class="franchise" id="franchise">
+        <h2 class="franchiseTitle">Два варианта франшизы</h2>
+        <div class="franchiseCards">
+            <div class="franchiseCard">
+                <div class="franchise__absText" style="background-color: #5CA6E7;">
+                    <img src="./img/franchise/absText1.svg" alt="" style="margin-right: 10px;">
+                    <p style="color: white;">Рекомендуем </p>
+                </div>
+                <img src="./img/franchise/absoluteImg1.jpg" alt="" class="franchiseAbsolute1">
+                <h3 class="franchiseCard-title">РОЗНИЧНЫЙ МАГАЗИН</h3>
+                <p class="franchiseSubText">(для городов от 30 000 населения)</p>
+                <div class="line"></div>
+                <ul class="franchise__ul">
+                    <li class="franchise__li">
+                        <img src="./img/franchise/1.svg" alt="">
+                        <p class="franchiseUL__text">Объём инвестиций 1.5 млн ₽</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/2.svg" alt="">
+                        <p class="franchiseUL__text">Площадь 40-70 м2</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/3.svg" alt="">
+                        <p class="franchiseUL__text">Паушальный взнос 200 000 ₽</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/4.svg" alt="">
+                        <p class="franchiseUL__text">Роялти 4% от выручки; 10% в агрегаторе</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/5.svg" alt="">
+                        <p class="franchiseUL__text">Ожидаемый доход  230 000 ₽ / мес.</p>
+                    </li>
+                </ul>
+                <div class="franchise__secondBlock">
+                    <ul class="franchise__secondul">
+                        <li class="franchise__li">
+                            <img src="./img/franchise/card1.svg" alt="">
+                            <p class="franchiseUL__text">В период праздников доход <br> выше в 3-5 раз</p>
+                        </li>
+                        <li class="franchise__li">
+                            <img src="./img/franchise/card2.svg" alt="">
+                            <p class="franchiseUL__text">Ориентировочная окупаемость 7 месяцев</p>
+                        </li>
+                    </ul>
+                </div>
+                <button id="openModalBtn" class="defultBtn"  data-target="myModal">Получить консультацию</button>
+                <p>Смотреть расходы на открытие</p>
+                <div class="franchise__hr"></div>
+            </div>
+            <div class="franchiseCard">
+                <div class="franchise__absText" style="background-color: #48394A;">
+                    <img src="./img/franchise/absText2.svg" alt="" style="margin-right: 10px;">
+                    <p style="color: white;">Выгодно</p>
+                </div>
+                <img src="./img/franchise/absoluteImg2.jpg" alt="" class="franchiseAbsolute2">
+                <h3 class="franchiseCard-title">ОПТОВО-РОЗНИЧНЫЙ СКЛАД</h3>
+                <p class="franchiseSubText">(эксклюзив на город)</p>
+                <div class="line"></div>
+                <ul class="franchise__ul">
+                    <li class="franchise__li">
+                        <img src="./img/franchise/1.svg" alt="">
+                        <p class="franchiseUL__text">Объём инвестиций 2.5-3 млн ₽</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/2.svg" alt="">
+                        <p class="franchiseUL__text">Площадь склада 150-250 м2</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/3.svg" alt="">
+                        <p class="franchiseUL__text">Паушальный взнос 300 000 ₽</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/4.svg" alt="">
+                        <p class="franchiseUL__text">Роялти 1.5% от выручки</p>
+                    </li>
+                    <li class="franchise__li">
+                        <img src="./img/franchise/5.svg" alt="">
+                        <p class="franchiseUL__text">Ожидаемый доход  420 000 ₽ / мес.</p>
+                    </li>
+                </ul>
+                <div class="franchise__secondBlock">
+                    <ul class="franchise__secondul">
+                        <li class="franchise__li">
+                            <img src="./img/franchise/card1.svg" alt="">
+                            <p class="franchiseUL__text">В период праздников доход <br> выше в 3-5 раз</p>
+                        </li>
+                        <li class="franchise__li">
+                            <img src="./img/franchise/card2.svg" alt="">
+                            <p class="franchiseUL__text">Ориентировочная окупаемость 7 месяцев</p>
+                        </li>
+                    </ul>
+                </div>
+                <button id="openModalBtn" class="defultBtn"  data-target="myModal">Получить консультацию</button>
+                <p>Смотреть расходы на открытие</p>
+                <div class="franchise__hr"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="development"  id="development">
+        <div class="developmentBlocks">
+            <div class="developmentBlock -text">
+                <h3 class="developmentBlock__title">Развитие и поддержка</h3>
+                <ul class="development__ul">
+                    <li class="development__li">
+                        <img src="./img/development/icon.svg" alt="">
+                        <p class="development__liText">Помощь в закупках</p>
+                    </li>
+                    <li class="development__li">
+                        <img src="./img/development/icon.svg" alt="">
+                        <p class="development__liText">Помощь в подборе помещения</p>
+                    </li>
+                    <li class="development__li">
+                        <img src="./img/development/icon.svg" alt="">
+                        <p class="development__liText">Консультации по подбору персонала</p>
+                    </li>
+                    <li class="development__li">
+                        <img src="./img/development/icon.svg" alt="">
+                        <p class="development__liText">Маркетинговая поддержка, настройка рекламных кампаний</p>
+                    </li>
+                    <li class="development__li">
+                        <img src="./img/development/icon.svg" alt="">
+                        <p class="development__liText">Создание сайта и мобильного приложения</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="developmentBlock">
+                <img src="./img/development/img.png" class="developmentBlock__img" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="opportunities" id="opportunities">
+      
+        <h2 class="opportunitiesTitle">Инновационные возможности</h2>
+            <div class="opportunitiesBlocks">
+                
+                <div class="opportunitiesBlock">
+                    <img src="./img/opprtuniti/dashboard-square-01.svg" class="opportunitiesImg" alt="">
+                    <p class="opportunitiesText">Вы получите платформу для онлайн-продаж, созданную в Сколково с использованием искусственного интеллекта. Она поможет сократить затраты на привлечение и удержание клиентов на 20%.</p>
+                </div>
+                <div class="opportunitiesBlock">
+                    <img src="./img/opprtuniti/smart-phone-01.svg" class="opportunitiesImg" alt="">
+                    <p class="opportunitiesText">Мобильное приложение FloGo отличается от интернет-магазинов конкурентов тем, что оно устанавливается на телефон ваших клиентов и не требует дополнительных трат на маркетинг.</p>
+                </div>
+                <div class="opportunitiesBlock">
+                    <img src="/img/opprtuniti/absoluteIcon1.png" alt="" class="opportunitiabsoluteIcon1">
+                    <img src="./img/opprtuniti/wallet-add-02.svg" class="opportunitiesImg" alt="">
+                    <p class="opportunitiesText">Программа лояльности автоматически начисляет повышенный кешбек на первый заказ, что способствует повторным заказам через приложение.</p>
+                </div>
+                <div class="opportunitiesBlock">
+                    <img src="/img/opprtuniti/absoluteIcon2.png" alt="" class="opportunitiabsoluteIcon2">
+                    <img src="./img/opprtuniti/chathpt-add-02.svg" class="opportunitiesImg" alt="">
+                    <p class="opportunitiesText">Искусственный интеллект анализирует сегменты пользователей и выполняет действия, направленные на возвращение клиентов в сегмент активных покупателей.</p>
+                </div>
+            </div>
+        
+    </section>
+    <section class="open" id="open">
+        <h2 class="franchiseTitle" style="text-align: center;">Расходы на открытие</h2>
+        <div class="franchiseCards">
+            <div class="franchiseCard">
+               
+                <img src="./img/franchise/absoluteImg1.jpg" alt="" class="franchiseAbsolute1">
+                <h3 class="franchiseCard-title">РОЗНИЧНЫЙ МАГАЗИН</h3>
+                <p class="franchiseSubText">(40-70 кв. метров)</p>
+               
+                <div class="franchise__secondBlock">
+                    <ul class="franchise__secondul" style="background-color: #F2EFEA !important; margin-bottom: 10px;">
+                        <li class="franchise__li" style="margin-bottom: 0 ;">
+                            <p class="franchiseUL__text">Объём инвестиций 1.5 млн ₽</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <ul class="franchise__ul" style="list-style-type: circle !important; margin: 0px 0px 20px  30px !important">
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Аренда +депозит  100 000 р. (Москва 200-250 000 р.)</p>
+                    </li>
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Мебель 70 000 – 100 000 р</p>
+                    </li>
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Вывеска 40 000 – 50 000 р</p>
+                    </li>
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Холодильное оборудование    200 -400 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Техника (касса, смартфон) 50-60 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Первая закупка 100-150 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Прочие расходы 100 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Заработная плата 50 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Реклама 50 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Паушальный взнос 200 000 р</p>
+                    </li>
+                </ul>
+                
+                <button class="defultBtn" id="openModalBtn"  data-target="myModal">Получить консультацию</button>
+            
+            </div>
+            <div class="franchiseCard">
+               
+                <img src="./img/franchise/absoluteImg2.jpg" alt="" class="franchiseAbsolute2">
+                <h3 class="franchiseCard-title">ОПТОВО-РОЗНИЧНЫЙ СКЛАД</h3>
+                <p class="franchiseSubText">(100-250 кв. метров)</p>
+               
+                <div class="franchise__secondBlock">
+                    <ul class="franchise__secondul" style="background-color: #F2EFEA !important; margin-bottom: 10px;">
+                        <li class="franchise__li" style="margin-bottom: 0 ;">
+                            <p class="franchiseUL__text">Объём инвестиций 1.5 млн ₽</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <ul class="franchise__ul" style=" list-style-type: circle !important; margin: 0px 0px 20px  30px !important">
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Аренда +депозит  100 000 р. (Москва 200-250 000 р.)</p>
+                    </li>
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Мебель 70 000 – 100 000 р</p>
+                    </li>
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Вывеска 40 000 – 50 000 р</p>
+                    </li>
+                    <li class="openLi">
+                        
+                        <p class="franchiseUL__text">Холодильное оборудование    200 -400 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Техника (касса, смартфон) 50-60 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Первая закупка 100-150 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Прочие расходы 100 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Заработная плата 50 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Реклама 50 000 р</p>
+                    </li>
+                    <li class="openLi">
+                       
+                        <p class="franchiseUL__text">Паушальный взнос 200 000 р</p>
+                    </li>
+                </ul>
+                
+                <button class="defultBtn" id="openModalBtn"  data-target="myModal">Заполнить заявку и получить консультацию</button>
+            
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="contactsBlock">
+            <img src="./img/contacts/logo.svg" class="contactsBlock__logo" alt="">
+
+            <h3 class="contactsBlock__title"><span class="bold">FloGo</span> франшиза цветочного бизнеса №1 <br/> в Российской Федерации</h3>
+            <button class="contactsBlock__btn" id="openModalBtn"  data-target="myModal"> Получить консультацию</button>
+            <div class="contactsBlock__text">
+                <p class="contactsBlock__textItem">ИП Лобыничев Тарас Анатолиевич</p>
+                <p class="contactsBlock__textItem">ИНН 570206388868</p>
+                <p class="contactsBlock__textItem">+7 915 593 66 77</p>
+            </div>
+            <img src="./img/contacts/logos_telegram.svg" class="contactsBlock__icon" alt="">
+        </div>
+    </section>
+    <section id="myModal" class="modal">
+       
+   
+    <div class="modal-content">
+        <img src="/img/modal/Logo.svg" class="modallogo" alt="">
+        <div class="modalBG">
+            <span class="close" id="closeModalBtn">&times;</span>  
+        </div>
+        <div class="modalContent">
+            
+            <h2 class="modalTitle">Заполните заявку</h2>
+            <p class="modalSubTitle">Наш специалист свяжестя с вами <br/> в ближайшее время</p>
+            <form class="modalForm">
+                <input class="modalInput" type="text" id="name" name="name" placeholder="Имя">
+                <input class="modalInput" type="tel" id="phone" name="phone" placeholder="Телефон">
+                <input class="modalInput" type="email" id="email" name="email" placeholder="Email">
+                <div class="modalCheckbox"><input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe" style="font-size: 14px;">Соглашаюсь с политикой обработки персональных данных</label></div>
+                
+                    <button class="defultBtn" onclick="redirectToWhatsApp()">Получить консультацию</button>
+
+            </form>
+    </div>
+    </div>
+
+    </section>
+   
+       
+    
+</div>
+<footer>
+    <div class="footerBlock">
+        <div class="footerULBlock">
+            <ul class="footerUL">
+                <li class="footerText"><a class="footerText" href="#main">Преимущества </a> </li>
+                <li class="footerText"><a class="footerText" href="#franchise">Варианты франшизы</a> </li>
+                <li class="footerText"><a class="footerText" href="#development">Развитие и поддержка</a></li>
+                <li class="footerText"><a class="footerText" href="#opportunities">Возможности</a> </li>
+                <li class="footerText"><a class="footerText" href="#open">Расходы на открытие</a> </li>
+            </ul>
+                
+        </div>
+        <div class="footerIcons">
+            <img src="./img/footer/1.svg"  class="footerIcons__icon">
+            <img src="./img/footer/2.svg"  class="footerIcons__icon">
+            <img src="./img/footer/3.svg"  class="footerIcons__icon">
+        </div>
+        <p class="footerLastText">2024 © FloGo </p>
+    </div>
+</footer>
+</body>
+<script src="./script.js"></script>
+
+</html>

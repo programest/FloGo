@@ -1,0 +1,379 @@
+
+/* Стили для устройств с шириной экрана 1750px  и меньше*/
+  @media only screen and  (max-width: 1750px) {
+    .statisticsBlock{
+        height: 30%;
+        width: 30%;
+    }
+    .statisticsBlock-text{
+        margin-right: 10px ;
+        font-size: 14px;
+    }
+    /* Ваши стили для устройств с шириной экрана от 1401px до 1600px */
+  }
+
+   /* Стили для устройств с шириной экрана 1600px  и меньше*/
+   @media only screen and  (max-width: 1650px) {
+    .statisticsBlock{
+     
+        width: 48%;
+    }
+    .franchiseCard{
+        width: 35%;
+    }
+    .modalContent{
+        width: 50%;
+    }
+    
+  }
+  
+  /* Стили для устройств с шириной экрана 1400px и меньше */
+  @media only screen and (max-width: 1400px) {
+    .mainBlockCard {
+        order: -3;
+    }
+    .mainBlockCard:nth-child(3) {
+        order: -3;
+    }
+    .mainBlockCard:nth-child(4) {
+        order: 6;
+    }
+    .mainBlockCard:nth-child(2) {
+        order: 5;
+    }
+    .franchiseCard{
+        width: 40%;
+    }
+    .modalContent{
+        width: 55%;
+    }
+    .modal-content{
+        width: 60%;
+    }
+    .mainBlockCards{
+        bottom: -10%;
+        right: 0%;
+    }
+    .mainBlockCard{
+        margin: 10px;
+        max-width: 40%;
+        padding: 10px;
+
+    }
+   
+    .wrapper{
+        margin: 0 100px;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+
+.mainBlockCards{
+    bottom: -30%;
+    right: 0%;
+
+}
+.mainBlock{
+    margin-bottom: 30%;
+}
+
+  }
+    /* Стили для устройств с шириной экрана  1250px и меньше  */
+    @media only screen and  (max-width: 1200px) {
+        .burgerMenu{
+            text-align: center;
+            display: flex;
+        padding:40PX;
+            align-items: center;
+            margin-top: 80px;
+        }
+        .headerBtn{
+            width: auto;
+        }
+        .-burgerBtn{
+            width: 60%;
+        }
+        .mainBlockCards{
+            bottom: -50%;
+        }
+    .statisticsBlock{
+     
+        width: 100%;
+    }
+    .franchiseCard{
+        width: 60%;
+    }
+    .modalContent{
+        width: 70%;
+    }
+  
+    .modalInput{
+        height: 60px;
+    }
+  }
+  @media only screen and  (max-width: 1100px) {
+    .mainBlockCards{
+        bottom: -70%;
+    }
+    .mainBtnBlock{
+        width: 250px;
+    }
+}
+   /* Стили для устройств с шириной экрана  1024px и меньше  */
+   @media only screen and  (max-width: 1024px) {
+   
+    .mainBlockCard{
+        max-width: 30%;
+    }
+    .mainBlockCard__text{
+        font-size: 16px;
+    }
+    .mainBlockCards{
+        bottom: 30%;
+        right: 0%;
+    }
+    
+.mainBlock__img{
+    width: 50%;
+}
+    
+    .mainBlock{
+        align-items: center;
+        flex-direction: column;
+    }
+    .footerText{
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .wrapper{
+        margin: 0 40px;
+    }
+    .franchiseCard{
+        width: 100%;
+    }
+    .modal-content{
+        width: 70%;
+    }
+    .opportunitiesBlock{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .mainBtnBlock{
+        display: none;
+    }
+    .-hidden{
+        margin-top: 10%;
+        display: flex;
+    }
+    .franchiseTitle{
+        margin-bottom: 15%;
+    }
+   
+  }
+  @media only screen and (max-width: 900px) {
+    .mainBlockCard__img{
+        width: 9%;
+    }
+    .statisticsBlock{
+        margin: 20px 0px;
+    }
+   .franchiseCards{
+    flex-direction: column;
+    margin-bottom: 30px;
+   }
+   .franchiseCard{
+    margin: 0;
+   }
+   .mainBtnBlock{
+    width: 200px;
+}
+   .mainBlockCard{
+    max-width: 46%;
+}
+
+   .mainBlockCard__text{
+    font-size: 9px;
+    margin-left: 8px;
+}
+.opportunitiesTitle{
+    text-align: center;
+}
+.opportunitiesImg{
+    margin-right: 6px;
+}
+  }
+   /* Стили для устройств с шириной экрана 768px и меньше */
+   @media only screen and (max-width: 768px) {
+    .franchise__absText{
+        margin-top: -30px;
+        margin-left: 45%;
+    }
+    .contacts{
+        width: 100%;
+    }
+    .-burgerBtn {
+        width: 80%;
+    }
+    .burgerMenu a{
+        font-size: 20PX;
+        padding: 20PX;
+    }
+    .mainTitle{
+        margin-right: 0;
+    }
+    .-hidden{
+        margin-top: 30%;
+    }
+    .footerULBlock{
+        margin-top: 18%;
+    }
+    .statistics{
+        padding: 10px;
+    }
+    .development__liText{
+        font-size: 18px;
+    }
+    .mainTitle{
+        font-size: 100px;
+        text-align: center;
+    }
+    .mainBlockCards {
+        width: 90%;
+        bottom: 20%;
+        right: 5%;
+    }
+    .mainSubTitle{
+        display: none;
+    }
+    
+    .mainBlock__img{
+        width: 42%;
+    }
+    .mainBlock__text{
+        align-items: center;
+    }
+    .mainSub{
+        font-size: 25px;
+        text-align: center;
+    }
+    .mainBlockCard{
+        max-width: 47%;
+        margin: 5px;
+
+    }
+    .footerUL{
+        flex-direction: column;
+    }
+    .footerText{
+        margin-right: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .wrapper{
+        margin: 0 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .modal-content{
+        width: 100%;
+  
+    }
+    .contactsBlock{
+        padding: 10%;
+        background-size: cover
+    }
+    .developmentBlocks{
+        flex-direction: column;
+    }
+    .-text{
+        margin-left: 15px;
+    }
+    .franchiseUL__text{
+        font-size: 16px;
+    }
+  }
+
+
+  /* Стили для устройств с шириной экрана 480px и меньше */
+  @media only screen and (max-width: 480px) {
+    .developmentBlock__img{
+        width: 70%;
+    }
+    .franchise__absText{
+        margin-top: -30px;
+        margin-left: 40%;
+    }
+    .mainBtnBlock{
+        width: 200px;
+        height: 50px;
+    }
+    .franchiseTitle{
+        margin-bottom: 25%;
+    }
+    .developmentBlock__title{
+        font-size: 24px;
+    }
+    .developmentBlock{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .-text{
+        margin-left: 10px;
+    }
+
+    .statisticsBlock{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .headerBlock{
+        margin: 20px 10px;
+    }
+    .headerBlock__text{
+        font-size: 10px;
+    }
+    .statisticsBlock-text{
+        margin-right: 0px;
+    }
+    .contactsBlock__textItem{
+        font-size: 15px;
+    }
+    .footerText{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .franchiseCard{
+        padding: 10px;
+        margin-bottom: 40%;
+    }
+    .mainBlockCard{
+        max-width: 45%;
+        padding: 5px
+    }
+    .mainBlockCard__img{
+        width: 9%;
+    }
+    .mainBlockCards {
+        width: 95%;
+        bottom: 20%;
+        right: 3%;
+    }
+  }
+  
+  
+ 
+  /* Стили для устройств с шириной экрана 320px и меньше */
+@media only screen and (max-width: 320px) {
+    /* Ваши стили для устройств с шириной экрана 320px и меньше */
+  }
+  
+ 
+ 
+  
+ 
+ 
+ 
